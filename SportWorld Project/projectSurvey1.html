@@ -1,0 +1,142 @@
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+	
+<head><title>Swimming Club Survey</title>
+<script  type ="text/JavaScript">
+
+function Summary(){
+    var survay1 = document.getElementById( "Survay" ); 
+var Q1="";
+for(var i=0 ;i<3;i++){
+    if(survay1.elements[i].checked){Q1=survay1.elements[i].value;}
+}
+var Q2="";
+for(var i=3 ;i<6;i++){
+    if(survay1.elements[i].checked){Q2=survay1.elements[i].value;}
+}
+var Q3="";
+for(var i=6 ;i<9;i++){
+    if(survay1.elements[i].checked){Q3=survay1.elements[i].value;}
+}
+var Q4="";
+for(var i=9 ;i<12;i++){
+    if(survay1.elements[i].checked){Q4=survay1.elements[i].value;}
+}
+window.alert("your answers summary: \n Did you benefited from our swimming services? "+Q1+"\n What did you like in our swimming services? "+Q2+"\n You think our swimming services are: "+Q3+"\n would you like to come back again? "+Q4+"\n");
+}
+
+
+</script>
+
+</head>
+
+<body>
+    <div class="headerNAV">
+        <img class="logo"
+            src="Sport world.png"
+            alt="Loading image">
+    </div>
+
+    <header>
+        
+        <nav>
+            <ul class="navigate_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="joinUs.html">Join Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li>
+                    
+                        <div class="dropdown">
+                        <button class="dropbtn">Sports</button>
+                        <div class="dropdown-content">
+                            <a href="Football.html">Football</a>
+                            <a href="Basketball.html">Basketball</a>
+                            <a href="Swimming.html">Swimming</a>
+                        </div>
+                    </div>
+                </li>
+			    <li>
+                    
+                        <div class="dropdown">
+                        <button class="dropbtn">Rate Our Clubs</button>
+                        <div class="dropdown-content">
+                            <a href="xmlSurvey.xml">Football</a>
+                            <a href="projectSurvey1.html">Swimming</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<br><br>
+    
+<h1 id="swimming-feedback-header" >Swimming Feedback</h1><br>
+<div class="form-box">
+<center>
+<h3 class="h3-homeSports">Please fill out this survey to improve our services</h3><br>
+<form id="Survay" onsubmit="Summary()" action="">
+<p class="p-SwimmingSurvey">
+    <strong>Did you benefited from our swimming services?</strong><br/>
+    <label><input  name="benefit" value="Yes" type="radio" id="yes" />Yes</label>
+    <label><input name="benefit" value="No" type="radio" id="no"/>No</label>
+    <label><input name="benefit" value="Maybe" type="radio" id="maybe"/>Maybe</label>
+</p><br>
+<p class="p-SwimmingSurvey">
+    <strong>What did you like in our swimming services?</strong><br/>
+    <lable><input type="radio" name="services" value="place" id="place" />place</lable>
+    <lable><input type="radio" name="services" value="trainer" id="trainer"/>trainer</lable>
+    <lable><input type="radio" name="services" value="price" id="price"/>price</lable>
+</p><br>
+<p class="p-SwimmingSurvey">
+    <strong>You think our swimming services are:</strong><br/>
+    <lable><input type="radio" name="think" value="perfect" id="perfect"/>Perfect</lable>
+    <lable><input type="radio" name="think" value="good" id="good"/>Good</lable>
+    <lable><input type="radio" name="think" value="bad" id="bad"/>Bad</lable>
+</p><br>
+<p class="p-SwimmingSurvey">
+    <strong>would you like to come back again?</strong><br/>
+    <label><input  name="come" value="Yes" type="radio" id="yess" />Yes</label>
+    <label><input name="come" value="No" type="radio" id="noo"/>No</label>
+    <label><input name="come" value="Maybe" type="radio" id="maybee"/>Maybe</label>
+</p><br>
+<p>
+    <input class="form-button" type="submit" value="Display Summary" />
+    <input class="form-button" type="reset" value="Clear"/>   
+</p>
+</form>
+</center>
+</div>
+
+    <!-- Footer Menu -->
+    <footer id="footer">
+        <div class="website-details">
+            <div class="row">
+                <div id="col1">
+                    <span id="icon" class="fa fa-map-marker"></span>
+                    <span style="color:white ;">
+                    Sport World
+                </span>
+                </div>
+                <div id="col2">
+                    <span id="icon" class="fa fa-phone"></span>
+                    <span style="color:white ;">
+                    Saudi Arabia, Riyadh <br>
+                    Telephone: +966-55-4709-900
+                </span>
+                </div>
+                <div id="col3">
+                    <span id="icon" class="fa fa-envelope"></span>
+                    <span><a href="mailto: SportWorld@gmail.com">SportWorld@gmail.com</a></span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>

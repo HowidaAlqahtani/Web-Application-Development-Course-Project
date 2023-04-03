@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Join Us</title>
+</head>
+<body>
+
+    <div class="headerNAV">
+        <img class="logo"
+            src="Sport world.png"
+            alt="Loading image">
+    </div>
+
+    <header>
+        
+        <nav>
+            <ul class="navigate_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="joinUs.html">Join Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li>
+                    
+                        <div class="dropdown">
+                        <button class="dropbtn">Sports</button>
+                        <div class="dropdown-content">
+                            <a href="Football.html">Football</a>
+                            <a href="Basketball.html">Basketball</a>
+                            <a href="Swimming.html">Swimming</a>
+                        </div>
+                    </div>
+                </li>
+			    <li>
+                    
+                        <div class="dropdown">
+                        <button class="dropbtn">Rate Our Clubs</button>
+                        <div class="dropdown-content">
+                            <a href="xmlSurvey.xml">Football</a>
+                            <a href="projectSurvey1.html">Swimming</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form class="signup-form" action="" method="POST">
+        <!-- form header -->
+        <div class="form-header">
+            <h1>Join Us</h1>
+        </div>
+
+        <!-- form body -->
+        <div class="form-body">
+            <!-- Firstname and Lastname -->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="firstname" class="label-title">First Name</label>
+                    <input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+                </div>
+
+                <div class="form-group right">
+                    <label for="lastname" class="label-title">Last Name</label>
+                    <input type="text" id="lastname" class="form-input" placeholder="enter your last name" />
+                </div>
+            </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email" class="label-title">Email</label>
+            <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+        </div>
+
+        <!-- Passwrod -->
+        <div class="horizontal-group">
+            <div class="form-group">
+                <label for="password" class="label-title">Password</label>
+                <input type="password" id="password" class="form-input" placeholder="enter your password" required="required">
+            </div>
+        </div>
+
+        <!-- Gender and Fav Sports -->
+        <div class="horizontal-group">
+            <div class="form-group left">
+                <label class="label-title">Gender:</label>
+                
+                <div class="input-group">
+                    <label for="male"><input type="radio" name="gender" value="female" id="female"> Female</label>
+                    <label for="female"><input type="radio" name="gender" value="male" id="male"> Male</label>
+                </div>
+            </div>
+
+            <div class="form-group right">
+                <label class="label-title">Favorite Sport</label>
+                <div>
+                    <label><input type="checkbox"  name="sport" value="Football"> Football </label>
+                    <label><input type="checkbox"  name="sport" value="Basketball"> Basketball  </label>
+                    <label><input type="checkbox"  name="sport" value="Swimming"> Swimming </label>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- form-footer -->
+        <div class="form-footer">
+            <button type="submit" class="btn">Create</button>
+        </div>
+    </form>
+
+    <!-- Footer Menu -->
+    <footer id="footer">
+        <div class="website-details">
+            <div class="row">
+                <div id="col1">
+                    <span id="icon" class="fa fa-map-marker"></span>
+                    <span style="color:white ;">
+                    Sport World
+                </span>
+                </div>
+                <div id="col2">
+                    <span id="icon" class="fa fa-phone"></span>
+                    <span style="color:white ;">
+                    Saudi Arabia, Riyadh <br>
+                    Telephone: +966-55-4709-900
+                </span>
+                </div>
+                <div id="col3">
+                    <span id="icon" class="fa fa-envelope"></span>
+                    <span><a href="mailto: SportWorld@gmail.com">SportWorld@gmail.com</a></span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

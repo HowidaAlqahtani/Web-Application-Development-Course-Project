@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type = "text/xsl" href = "xmlSurvey.xsl"?>
+
+<footballSurvey>
+	
+    <question1 questionNo= "1">
+        <question_text>Question 1: What age range are you in?</question_text>
+        <choice_a>10-20</choice_a>
+        <choice_b>20-30</choice_b>
+        <choice_c>over 30</choice_c>
+    </question1>
+	
+    <question2 questionNo= "2">
+        <question_text>Question 2:Which of the following represents the main reason you joined our football club?</question_text>
+        <choice_a>Increase fitness and health</choice_a>
+        <choice_b>Enjoyment of the sport/hobby</choice_b>
+        <choice_c>To train/take part competitively</choice_c>
+    </question2>
+	
+    <question3 questionNo= "3">
+        <question_text>Question 3: How would you rate the facilities at the football club?</question_text>
+        <choice_a>Good</choice_a>
+        <choice_b>Satisfactory</choice_b>
+        <choice_c>Poor</choice_c>
+    </question3>
+	
+    <question4 questionNo= "4">
+        <question_text>Question 4: How would you rate the Level of Service at the football club?</question_text>
+        <choice_a>Good</choice_a>
+        <choice_b>Satisfactory</choice_b>
+        <choice_c>Poor</choice_c>
+    </question4>
+	
+    <question5 questionNo= "5">
+        <question_text>Question 5: How would you rate the quality and range of the snacks/baverages provided at the football club?</question_text>
+        <choice_a>Good</choice_a>
+        <choice_b>Satisfactory</choice_b>
+        <choice_c>Poor</choice_c>
+    </question5>
+	
+    <question6 questionNo= "6">
+        <question_text>Question 6: How would you rate the price of the snacks/baverages provided at the football club?</question_text>
+        <choice_a>Good</choice_a>
+        <choice_b>Satisfactory</choice_b>
+        <choice_c>Poor</choice_c>
+    </question6>
+	
+</footballSurvey>
